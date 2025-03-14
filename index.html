@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&display=swap">
+    
+    <title>ToDoList</title>
+</head>
+<body>
+    <div class="MenuGlobal">
+        <header class="header">
+            <h1 class="titulo">To Do List  </h1>
+            <div class="icon-container">
+            <img class="menu_bar" src="Menu V2/menu.svg"> 
+            </div>
+        </header> 
+        <div class="main">
+            <div class="container">
+                <input type="text" class="input_tareas" placeholder="Escriba su siguiente tarea" maxlength="51" min="1"> 
+                <button class="boton_Agregar">Agregar</button>
+            </div>
+   
+            <div class="container_Tareas"></div>
+        </div>
+        <div class="menu">
+            <div class="insideMenuBar">
+                <img class="crossIcon" src="crossIcon.svg" alt="Icon">
+                <h6 class="tituloArchivos">Archivos</h6>
+            </div>
+            <div class="Archivero">
+                <div class="divNuevaTarea">
+                    <input type="text" class="inputNuevoArchivo" placeholder="Nuevo archivo" maxlength="24">
+                    <img class="checkIcon" src="check_icon.svg" alt="Icon">
+                </div>
+                <div class="listaDeArchivos"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
