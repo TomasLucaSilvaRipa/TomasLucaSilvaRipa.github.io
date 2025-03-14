@@ -528,6 +528,8 @@ html,body{
     .atributo_Estado{
         padding-right: 15px;
     }
+    .atributo_Fecha{
+        font-size: 8px
     .mensaje{
         font-size: 15px;
     }
